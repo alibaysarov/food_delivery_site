@@ -74,3 +74,31 @@ a {
     font-size: 14px;
     margin-top: 30px;
 }
+.nav-list__item-2{
+    color: #0E254B99;
+    
+    
+}
+.nav-list__item-1{
+    color: #D5E5FB;
+}
+.nav-list-2{
+    padding: 7px 15px 7px 15px;
+    display: flex;
+    gap: 16px;
+    margin-left: 230px;
+}
+.menu-2{
+    display: inline-block;
+    display: flex;
+}
+.menu-2 img{
+    width: 111px;
+    height: 44px;
+}
+.text{
+    width: 141px;
+    height: 43px;
+    color: #0E254B;
+    
+}
