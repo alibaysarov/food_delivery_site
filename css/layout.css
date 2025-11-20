@@ -3,6 +3,9 @@
  max-width: 1300px;
  margin: 0 auto;   
 }
-.container-2 {
-    
+.posts-container {
+display: flex;
+align-items: center;    
+justify-content: center;
+gap: 20px;
 }
