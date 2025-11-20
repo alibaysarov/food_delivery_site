@@ -3,7 +3,7 @@
  max-width: 1300px;
  margin: 0 auto;   
 }
-.posts-container {
+.posts-container { 
 display: flex;
 align-items: center;    
 justify-content: center;

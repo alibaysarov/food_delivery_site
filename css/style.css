@@ -201,7 +201,8 @@ a {
     display: flex;
     display: inline-block;
     position: relative;
-    left: 300px;
+    height: 400px;
+    margin-top: 20px;
 }
 .post img{
     width: 310px;
@@ -235,7 +236,30 @@ a {
     padding: 4px;
     border-radius: 13px;
     position: relative;
-    left: 150px;
+    left: 135px;
+}
+.text-content h1{
+    background-color: #D5E5FB;
+    color: #3485FF;
+    width: 6px;
+    height: 14px;
+    padding: 4px;
+    border-radius: 13px;
+    position: relative;
+    font-size: 14px;
+    top: 17px;
+    left: 4px;
+}
+.text-content h2{
+    background-color: #D5E5FB;
+    color: #3485FF;
+    width: 6px;
+    height: 14px;
+    padding: 4px;
+    border-radius: 13px;
+    position: relative;
+    font-size: 14px;
+    left: 104px;
 }
 .text{
     display: flex;
@@ -256,4 +280,19 @@ a {
 .text h5{
     color: #FFFFFF;
     font-size: 16px;
+}
+.text h4{
+    position: relative;
+    width: 20px;
+    top: 10px;
+    right: 134px;
+    color: #3485FF;
+}
+.text h3{
+    position: relative;
+    width: 20px;
+    top: 10px;
+    color: #3485FF;
+    right: 127px;
+    font-size: 26px;
 }
