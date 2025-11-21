@@ -160,6 +160,7 @@ a {
     top: 2px;
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 .data{
     background-color: #F4F6F9;
@@ -295,4 +296,86 @@ a {
     color: #3485FF;
     right: 127px;
     font-size: 26px;
+}
+.text h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9DC;
+    color: #FF6B17;
+    width: 148px;
+    font-size: 20px;
+    height: 36px;
+    gap: 6px;
+    border-radius: 25px;
+    position: relative;
+    left: 0px;
+}
+.post-2{
+
+}
+.post-2 p{
+    color: #0E254B99;
+}
+.post-2 img{
+    width: 600px;
+    height: 200px;
+}
+.text-content-2{
+    display: flex;
+    gap: 10px;
+}
+.text-content-2 h2{
+    background-color: #D5E5FB;
+    color: #3485FF;
+    width: 80px;
+    height: 29px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-content-2 h3{
+    color: #0E254B;
+    font-size: 22px;
+}
+.text-content-2 h1{
+    background-color: #D5E5FB;
+    color: #3485FF;
+    width: 6px;
+    height: 14px;
+    padding: 4px;
+    border-radius: 13px;
+    position: relative;
+    font-size: 14px;
+    left: px;
+}
+.text-2 img{
+    width: 20px;
+    height: 20px;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6B17;
+    width: 148px;
+    height: 36px;
+    gap: 6px;
+    border-radius: 25px;
+    position: relative;
+    left: 140px;
+}
+.text-2 h3{
+    position: relative;
+    width: 20px;
+    top: 10px;
+    color: #3485FF;
+    right: 127px;
+    font-size: 26px;
+}
+.text-2 h5{
+    color: #FFFFFF;
+    font-size: 16px;
 }
