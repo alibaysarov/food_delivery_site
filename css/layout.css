@@ -16,3 +16,8 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
+.posts-container-3{
+background-color: #81CAFF;
+width: 1300px;
+height: 660px;
+}
