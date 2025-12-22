@@ -265,7 +265,6 @@ a {
     margin-right: 172px;
 }
 .menu-2 img {
-    position: relative;
     width: 111px;
     height: 44px;
     border: 2px solid#0E254B99;
@@ -480,8 +479,6 @@ a {
     height: 36px;
     gap: 6px;
     border-radius: 25px;
-    position: relative;
-    left: 0px;
 }
 .post-2{
     width: 640px;
@@ -1306,4 +1303,220 @@ a {
     align-items: center;
     justify-content: center;
     margin-left: 11px;
+}
+.component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6B17;
+    width: 493px;
+    height: 36px;
+    padding: 0px 6px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.component-text{
+    display: flex;
+    gap: 6px;
+}
+.component-text img{
+    width: 20px;
+    height: 20px;
+}
+.component-text h4{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.component-price{
+    border: 5px solid #FFFFFF;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+}
+.component-price h5{
+    color: #FF6B17;
+    font-size: 16px;
+}
+.frame-5922{
+    margin: 0 auto;
+    width: 488px;
+    height: 182px;
+}
+.frame-5921{
+    width: 488px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0 auto;
+}
+.frame-5921 img{
+    width: 67px;
+    height: 32px;
+    border: 2px solid #0E254B99;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.frame-5921 h4{
+    color: #0E254B99;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 21px;
+}
+.kit{
+    display: flex;
+    flex-direction: row;
+    margin: 13px 0px;
+    width: 488px;
+    height: 92px;
+}
+.photo img{
+    border-radius: 15px;
+    width: 139px;
+    height: 92px;
+} 
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-left: 12px;
+    margin-top: 4px;
+    width: 182px;
+    height: 42.5px;
+}
+.frame-5726{
+
+}
+.frame-5726 h4{
+    color: #0E254B;
+    font-weight: 600;
+    width: 161px;
+    height: 20px;
+}
+.frame-5608{
+    display: flex;
+    gap: 10px;
+    width: 102.51px;
+    height: 15.5px;
+}
+.frame-5608 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0E254B99;
+    font-weight: 500;
+    width: 19px;
+    height: 15px;
+}
+.rating{
+    width: 77.51px;
+    height: 15.5px;
+}
+.star{
+    display: flex;
+}
+.star img{
+    width: 15.5px;
+    height: 15.5px;
+}
+.frame-5892{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 15px;
+    width: 148px;
+    height: 65px;
+}
+.frame-5892 h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #3485FF;
+    font-weight: 600;
+    font-size: 20px;
+}
+.frame-5713{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9DC;
+    width: 148px;
+    height: 36px;
+    gap: 6px;
+    border-radius: 25px;
+}
+.frame-5713 h2{
+    color: #FF6B17;
+    font-size: 20px;
+}
+.frame-5908{
+    color: #FF6B17;
+    width: 251px;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.frame-5908 img{
+    margin-right: 5px;
+}
+.line{
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    width: 486px;
+    height: 0px;
+    border-style: dashed;
+    border-bottom-style: none;
+    color: #D5E5FB
+}
+.frame-5923{
+    margin: 0 auto;
+    width: 488px;
+    height: 242px;
+}
+.basement-basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 127px;
+    gap: 100px;
+}
+.frame-5987{
+    background-color: #F4F6F9;
+    width: 199px;
+    height: 44px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.frame-5987 img{
+    width: 24px;
+    height: 24px;
+}
+.component-29{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14, 37, 75, 0.6);
+    width: 184px;
+    height: 49px;
+    border-radius: 25px;
+    
+}
+.component-29 h2{
+    color: rgba(255, 255, 255, 0.47);
+    width: 84px;
+    height: 20px;
+    font-size: 19px;
 }

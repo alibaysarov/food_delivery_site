@@ -99,3 +99,10 @@ width: 1920px;
 height: 578px;
 margin: 0 auto;
 }
+.basket-container{
+border: 2px solid #FF6B17;
+border-radius: 20px;
+width: 532px;
+height: 757px;  
+position: absolute; 
+}
