@@ -147,6 +147,7 @@ a {
     justify-content: center;
 }
 .mini-menu{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
