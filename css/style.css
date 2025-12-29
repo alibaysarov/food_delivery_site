@@ -31,9 +31,6 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-.phone-button {
-
-}
 .header__bottom{
     display: flex;
     justify-content: center;
@@ -147,6 +144,7 @@ a {
     justify-content: center;
 }
 .mini-menu{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +170,7 @@ a {
     font-size: 16px;
 }
 .mini-header{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1388,9 +1387,6 @@ a {
     width: 182px;
     height: 42.5px;
 }
-.frame-5726{
-
-}
 .frame-5726 h4{
     color: #0E254B;
     font-weight: 600;
@@ -1519,4 +1515,7 @@ a {
     width: 84px;
     height: 20px;
     font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

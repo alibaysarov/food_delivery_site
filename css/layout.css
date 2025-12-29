@@ -99,10 +99,29 @@ width: 1920px;
 height: 578px;
 margin: 0 auto;
 }
-.basket-container{
-border: 2px solid #FF6B17;
-border-radius: 20px;
-width: 532px;
-height: 757px;  
-position: absolute; 
+   .basket-container {
+    background-color: #fff; 
+    border: 2px solid #FF6B17;
+    border-radius: 20px;
+    visibility: hidden;
+    max-width: 532px;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+}
+.basket-container.open {
+    visibility: visible;
+}
+   .favourites-container{
+    background-color: #fff; 
+    border: 2px solid #FF6B17;
+    border-radius: 20px;
+    visibility: hidden;
+    max-width: 532px;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+}
+.favourites-container.openn{
+    visibility: visible;
 }
