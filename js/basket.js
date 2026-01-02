@@ -27,29 +27,3 @@ function basket() {
 
     basketTrigger.addEventListener("click",clickHandler)
 }
-function favourites() {
-    const favourites = document.querySelector(`#favourites-container`)
-    if (favourites == null || favourites == undefined ) {
-        return
-    }
-    const favouritesTrigger = document.querySelector(`#order-favourites`)
-    if (favouritesTrigger == null || favouritesTrigger == undefined) {
-        return
-    }
-    const coordinatesTwo = favouritesTrigger.getBoundingClientRect();
-    let isOpen = false
-    function clickHandlerTwo() {
-        if (isOpen == false) {
-            isOpen = true;
-            favourites.classList.add(`openn`)
-            favourites.style.left = `${coordinatesTwo.x}px`;
-            favourites.style.top = `${coordinatesTwo.y + 30}px`;
-        } else {
-            isOpen = false;
-            favourites.classList.remove(`openn`);
-            favourites.style.left = 0;
-            favourites.style.top = 0;
-        }
-    }
-    favouritesTrigger.addEventListener("click", clickHandlerTwo)
-}   

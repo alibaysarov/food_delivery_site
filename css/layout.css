@@ -99,8 +99,8 @@ width: 1920px;
 height: 578px;
 margin: 0 auto;
 }
-   .basket-container {
-    background-color: #fff; 
+.basket-container{ 
+    background-color: #fff;
     border: 2px solid #FF6B17;
     border-radius: 20px;
     visibility: hidden;
@@ -112,8 +112,8 @@ margin: 0 auto;
 .basket-container.open {
     visibility: visible;
 }
-   .favourites-container{
-    background-color: #fff; 
+.favourites-container{ 
+    background-color: #fff;
     border: 2px solid #FF6B17;
     border-radius: 20px;
     visibility: hidden;
@@ -122,6 +122,6 @@ margin: 0 auto;
     top: 0px;
     left: 0px;
 }
-.favourites-container.openn{
+.favourites-container.open {
     visibility: visible;
 }
